@@ -1,4 +1,4 @@
-[] EdgeOS-API/EdgeOS.API/EdgeOS.API.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
+[x] EdgeOS-API/EdgeOS.API/EdgeOS.API.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
 [] EdgeOS-API/Examples/ConfigurationTreeWalker/ConfigurationTreeWalker.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
 [] EdgeOS-API/Examples/InterfacesChart/InterfacesChart.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
 [] EdgeOS-API/Examples/LogFeed/LogFeed.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
